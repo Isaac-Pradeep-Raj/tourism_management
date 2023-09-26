@@ -1,0 +1,100 @@
+<html>
+    
+<head>
+    <title>Emergency Page</title>
+    <link rel="stylesheet" href="style2.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+        }
+
+        .info {
+            flex: 1;
+            padding: 30px;
+            text-align: left;
+            color: #fff;
+        }
+
+        .box {
+            background-image: url("images/emer2.jpg");
+            background-position:center;
+            width: 500px;
+            height: 400px;
+            background-color: red;
+            border: 1px solid #ccc;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            font-size: 30px;
+            color: firebrick
+        }
+
+        h2{
+               font-size: 50px;
+        }
+
+        p{
+               font-size: 20px;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+        }
+
+        .button {
+            padding: 10px 20px;
+            margin: 15px 10px;
+            font-size: 14px;
+            background-color: green;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+        .button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+
+<body>
+    
+    <div class="container">
+        <div class="info">
+            <h2 style="color: red">Emergency Information:</h2>
+            <p>
+                In case of a medical emergency, "Hospital Emergency" button to access ambulance services.</p> <p> For reporting fraudulent activities, click the "Fraudulent Emergency" button to contact the police.
+            </p>
+        </div>
+        <div class="box">
+            <h1>What is the Problem?</h1>
+            <div class="button-container">
+                <a href="video.html"  >
+                    <button class="button">Hospital Emergency</button>
+                    <button class="button">Fraudulent Emergency</button>
+                </a>
+
+                <a class="button-container" href="main.html">Home</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
